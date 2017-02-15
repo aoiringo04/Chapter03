@@ -93,8 +93,6 @@ public class MainActivity extends AppCompatActivity {
 
     // 외부저장장치(Sdcard) 에서 읽어오기
     public void loadFromSdcardFile(View v) {
-        // 입력한 문자열을 읽어온다.
-        String msg = inputMsg.getText().toString();
         // 외부저장장채의 상태값 읽어오기
         String state = Environment.getExternalStorageState();
         if (!state.equals(Environment.MEDIA_MOUNTED)) {
@@ -106,14 +104,14 @@ public class MainActivity extends AppCompatActivity {
         // 저장할 디렉토리 만들기
         String dirName = getPackageName(); // App 패키지명을 디렉토리로
         // 파일을 저장할 경로를 구성한다.
-        String path = externalPath + "/" + dirName + "memo.txt";
+        String path = externalPath + "/" + dirName + "/memo.txt";
         // 필요한 객체 초기화 하기
         FileInputStream fis = null;
         InputStreamReader isr = null;
         BufferedReader br = null;
         StringBuilder builder = new StringBuilder();
         try {
-            fis = openFileInput("memo.txt");
+            fis = new FileInputStream(path);
             isr = new InputStreamReader(fis);
             br = new BufferedReader(isr);
             while (true) {
@@ -170,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
     public void sdcardProcess() {
         // 입력한 문자열을 읽어온다.
         String msg = inputMsg.getText().toString();
-        // 외부저장장채의 상태값 읽어오기
+        // 외부저장장치의 상태값 읽어오기
         String state = Environment.getExternalStorageState();
         if (!state.equals(Environment.MEDIA_MOUNTED)) {
             Toast.makeText(this, "외부 저장장치를 사용할수 없음", Toast.LENGTH_SHORT).show();
@@ -180,10 +178,10 @@ public class MainActivity extends AppCompatActivity {
         String externalPath = Environment.getExternalStorageDirectory().getAbsolutePath();
         // 저장할 디렉토리 만들기
         String dirName = getPackageName(); // App 패키지명을 디렉토리로
-        File file = new File(externalPath + "/" + dirName);
+        File file = new File(externalPath + "/" + dirName + "/");
         file.mkdir(); // 디렉토리 만들고
         // 파일을 저장할 경로를 구성한다.
-        String path = externalPath + "/" + dirName + "memo.txt";
+        String path = externalPath + "/" + dirName + "/memo.txt";
         // 필요한 객체 초기화 하기
         FileOutputStream fos = null;
         PrintWriter pw = null;
