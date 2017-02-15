@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
     // 외부저장장치(Sdcard) 에서 읽어오기
     public void loadFromSdcardFile(View v) {
-        // 외부저장장채의 상태값 읽어오기
+        // 외부저장장치의 상태값 읽어오기
         String state = Environment.getExternalStorageState();
         if (!state.equals(Environment.MEDIA_MOUNTED)) {
             Toast.makeText(this, "외부 저장장치를 사용할수 없음", Toast.LENGTH_SHORT).show();
