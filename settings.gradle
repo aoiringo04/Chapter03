@@ -1,1 +1,1 @@
-include ':app', ':step01asynctask', ':step01example', ':step02json', ':step03setting', ':step03shardpreference', ':testt', ':step04fileio'
+include ':app', ':step01asynctask', ':step01example', ':step02json', ':step03setting', ':step03sharedpreference', ':step04fileio'

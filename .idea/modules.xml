@@ -8,9 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/step01example/step01example.iml" filepath="$PROJECT_DIR$/step01example/step01example.iml" />
       <module fileurl="file://$PROJECT_DIR$/step02json/step02json.iml" filepath="$PROJECT_DIR$/step02json/step02json.iml" />
       <module fileurl="file://$PROJECT_DIR$/step03setting/step03setting.iml" filepath="$PROJECT_DIR$/step03setting/step03setting.iml" />
-      <module fileurl="file://$PROJECT_DIR$/step03shardpreference/step03shardpreference.iml" filepath="$PROJECT_DIR$/step03shardpreference/step03shardpreference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step03sharedpreference/step03sharedpreference.iml" filepath="$PROJECT_DIR$/step03sharedpreference/step03sharedpreference.iml" />
       <module fileurl="file://$PROJECT_DIR$/step04fileio/step04fileio.iml" filepath="$PROJECT_DIR$/step04fileio/step04fileio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testt/testt.iml" filepath="$PROJECT_DIR$/testt/testt.iml" />
     </modules>
   </component>
 </project>

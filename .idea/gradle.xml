@@ -14,9 +14,8 @@
             <option value="$PROJECT_DIR$/step01example" />
             <option value="$PROJECT_DIR$/step02json" />
             <option value="$PROJECT_DIR$/step03setting" />
-            <option value="$PROJECT_DIR$/step03shardpreference" />
+            <option value="$PROJECT_DIR$/step03sharedpreference" />
             <option value="$PROJECT_DIR$/step04fileio" />
-            <option value="$PROJECT_DIR$/testt" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
