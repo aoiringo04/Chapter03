@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/step03sharedpreference" />
             <option value="$PROJECT_DIR$/step04fileio" />
             <option value="$PROJECT_DIR$/step05sqlite" />
+            <option value="$PROJECT_DIR$/step06googlemap" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/step03sharedpreference/step03sharedpreference.iml" filepath="$PROJECT_DIR$/step03sharedpreference/step03sharedpreference.iml" />
       <module fileurl="file://$PROJECT_DIR$/step04fileio/step04fileio.iml" filepath="$PROJECT_DIR$/step04fileio/step04fileio.iml" />
       <module fileurl="file://$PROJECT_DIR$/step05sqlite/step05sqlite.iml" filepath="$PROJECT_DIR$/step05sqlite/step05sqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/step06googlemap/step06googlemap.iml" filepath="$PROJECT_DIR$/step06googlemap/step06googlemap.iml" />
     </modules>
   </component>
 </project>
